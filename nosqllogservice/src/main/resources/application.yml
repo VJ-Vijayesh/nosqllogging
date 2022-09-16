@@ -1,0 +1,8 @@
+spring:
+  data:
+    cassandra:
+      keyspace-name: cassalogs
+      contact-points: cassa
+      port: 9042
+      schema-action: create_if_not_exists
+      entity-base-package: com.myservices.nosqllogservice.model
